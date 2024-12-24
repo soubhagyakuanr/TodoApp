@@ -18,3 +18,12 @@ function displayitems(){
   let newHtml='';
   for(let i=0;i<todoList.length;i++)
   {
+    // displayelement.innerText=    displayelement.innerText+" \n"  +todoList[i];
+
+
+    // let item=todoList[i].item;
+    // let duedate=todoList[i].duedate;
+
+
+    let {item,duedate}=todoList[i];
+    newHtml+=`
