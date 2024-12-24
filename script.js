@@ -11,3 +11,10 @@ function addTodo(){
   dateelement.value='';
   displayitems();
 }
+
+function displayitems(){
+  let containerElement=document.querySelector('.todo_container');
+  //displayelement.innerText=" ";
+  let newHtml='';
+  for(let i=0;i<todoList.length;i++)
+  {
